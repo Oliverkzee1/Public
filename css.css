@@ -1,0 +1,356 @@
+body{
+    margin:0;
+    padding: 0;
+}
+#line10 div, #line9 div,footer div div,#line8 marquee ul, .diplayRow{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#lin10, #line9,footer div div ul li, footer div div ul,.displayCol{
+    display:flex;
+    flex-direction:column;
+   
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    margin: 0px;
+}
+#line1{
+    background: url('./images/Best-City-Building-1185x768.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgba(50, 70, 80, 0.7);
+    background-blend-mode:soft-light;
+    width:100%;
+}
+#innerbox1-line1{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width: 90%;
+    position: fixed;
+    margin-left:5%;
+
+}
+#list ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:start;
+}
+#list ul li{
+  margin-right: 40px;
+  list-style-type: none;
+  font-size: 23px;
+}
+
+#innerbox2-line1{
+    height: 710px;
+    width: 100%;
+}
+#innerbox2-line1 h1{
+    font-size: 95px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:900;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+#innerbox2-line1 h4{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+    margin-top: -70px;
+}
+.btn{
+    width: 200px;
+    height:60px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+    color:white;
+    background: #cc0000;
+}
+.icon{
+    height: 25px;
+    width:25px;
+    margin-right: 4px;
+}
+#line2{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    height:700px;
+    width:100%;
+    margin-top: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+}
+#imag-chart{
+height:85%;
+width:100%;
+margin-top: 20px;
+margin-left: 30px;
+}
+.sub-group{
+    width:42%;
+    height:inherit;
+}
+
+#innerbox1-line2 h1{
+    margin-left: 25%;
+  }
+#innerbox1-line2 h3{
+    margin-left: 25%;
+  }
+  .sub{
+    margin-top: 9%;
+  }
+  #btn2{
+    margin-left: 25%;
+    margin-top: 9%;
+  }
+  #line7, #line3{
+      text-align: center;
+      background: url('./images/office-work.webp');
+      background-position:center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color:white;
+      background-color: rgba(50, 70, 80, 0.7);
+      background-blend-mode:soft-light;
+      padding-bottom: 35px;
+  }
+  #line3 h1{
+      font-size: 95px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+    #line3 h4{
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -40px;
+}
+    
+#line6, #line4{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    height:600px;
+}
+#line6 ul, #line4 ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:inherit;
+}
+#line6 ul li, #line4 ul li{
+    display:flex;
+    flex-direction: column;
+   width:30%;
+   list-style-type: none;
+   margin:10px;
+   color:#B01515;
+   font-size: 30px;
+}
+.icon1, .icon2{
+    display:block;
+    height: 80px;
+    width:80px;
+    margin:auto;
+}
+#line ul li span, #line4 ul li span{
+   width:100%;
+}
+#line6 ul li div, #line4 ul li div{
+    text-align:center;
+    width:100%;
+}
+#line5{
+    width:100%;
+    height:450px;
+    background:#324650b3;
+    font-size:20px;
+}
+#wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:75%;
+    margin:auto;
+}
+.bar{
+    width:100%;
+    height:7px;
+    background:white;
+    border-radius: 5px;
+}
+.bar-label{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+}
+#wrapper h1{
+    text-align: center;
+}
+#line6{
+    height: 300px;
+}
+#line6 ul li{
+   font-size: 17px;
+}
+.icon2{
+    height: 50px;
+    width:50px;
+}
+#line6 ul li{
+    flex-direction: row;
+    align-items: center;
+    width:25%;
+}
+#line6 ul li div{
+    width:70%;
+    text-align: left;
+}
+
+#line6 div{
+    width:70%;
+    margin:auto;
+}
+#line6 div h1{
+    text-align:center;
+}
+#line7 div{
+    width:50%;
+    margin:auto;
+    margin-top: 25px;
+}
+#line7 div h4{
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#line7{
+    height:200px;
+}
+#line8{
+    height:200px;
+}
+#line9{
+    height:450px;
+    background: url('./images/office-work.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(50, 70, 80, 0.7);
+    background-blend-mode:soft-light;
+}
+#line9 div {
+  width: 65%;
+  margin:auto;
+}
+#line9 div div{
+    width: 25%;
+    margin-top:0px;
+    padding:15px;
+    height: fit-content;
+    background:white;
+    color: black;
+    text-align: center;
+  }
+  #line9 div div h5{
+    line-height: 1.5;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+  }
+#line9 h1{
+  text-align: center;
+  color: white;
+}
+#line10{
+    background: grey;
+}
+#line10 div{
+    width:35%;
+    margin:auto;
+    margin-bottom:20px;
+}
+#line10 div button{
+    margin-left:5px;
+}
+#line10 h2{
+text-align: center;
+}
+input{
+    width: 80%;
+    height:52px;
+}
+footer{
+    background: black;
+    color:white;
+    height:550px;
+}
+.footer{
+height:80%;
+line-height: 1.5;
+width:70%;
+margin:auto;
+padding-top: 20px;
+}
+.sub-footer{
+    height: 90%;
+}
+#map{
+    margin-left:80px;
+    background:white;
+    width:fit-content;
+}
+
+.sub-footer ul{
+    height:100%;
+}
+.sub-footer ul li{
+    height:50%;
+}
+.sub-footer2 div{
+     width:92%;
+     margin:auto;
+}
+.sub-footer2 div h4{
+    width:30%;
+}
+.list-client{
+    list-style-type: none;
+    height: 80%;
+    margin-top: 50px;
+    width:fit-content;
+}
+marquee{
+    height:100%;
+    width:60%;
+    margin-left:20%;
+}
+.footer-link{
+height:50px;
+width:150px;
+background: yellow;
+margin: 30px;
+text-align: center;
+font-size: 18px;
+}
+.footer-link a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.footer-link-box{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    }
+
+
